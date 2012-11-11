@@ -1,0 +1,49 @@
+html {
+	height: 100%;
+}
+
+body {
+	background: #fff;
+	font-size: 15px;
+	font-family: Trebuchet MS;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+input[type="text"] {
+	width: 250px;
+	padding: 5px;
+	font-size: 16px;
+	font-family: Trebuchet MS;
+}
+
+.recent {
+	text-overflow: ellipsis;
+	width: 250px;
+	overflow: hidden;
+	white-space: nowrap;
+	list-style: square outside;
+}
+
+.title {
+	color: #000;
+	text-decoration: none;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+	-webkit-transition-property: color;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease;
+}
+
+.title:hover {
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+	color: #3A3A3A;
+}
+
+.menu-item {
+	color: #272525;
+}
+
+.date {
+	color: #242424;
+}
